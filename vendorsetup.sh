@@ -1,4 +1,4 @@
-echo 'Start Cloning repos for hot10'
+echo 'Start Cloning repos for LD7'
 
 echo 'Cloning Vendor Ims [1/4]'
 # Vendor Ims
@@ -7,8 +7,8 @@ git clone --depth=1 https://github.com/Infinix-Devices-Series/vendor_mediatek_im
 
 echo 'Cloning Vendor Trees [2/4]'
 # Vendor Blobs
-rm -rf vendor/infinix/hot10
-git clone https://github.com/Infinix-Devices-Series/android_vendor_infinix_hot10.git -b lineage-18.1 vendor/infinix/hot10
+rm -rf vendor/tecno/LD7
+git clone https://github.com/Infinix-Devices-Series/android_vendor_tecno_LD7.git -b lineage-18.1 vendor/infinix/hot10
 
 echo 'Cloning Mediatek Opensource [3/4]'
 # Hardware Mediatek Opensource
