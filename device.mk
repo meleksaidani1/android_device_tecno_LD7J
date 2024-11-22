@@ -134,3 +134,7 @@ PRODUCT_COPY_FILES += \
 # Performance level
 PRODUCT_PACKAGES += \
     init.performance_level.rc
+
+# InCall Service
+PRODUCT_PACKAGES += \
+    MtkInCallService
