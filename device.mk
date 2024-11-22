@@ -131,3 +131,8 @@ PRODUCT_PACKAGES += \
 # InCall Service
 PRODUCT_PACKAGES += \
     MtkInCallService
+
+# RRO-Overlays
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay \
+    WifiOverlay
