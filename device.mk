@@ -42,7 +42,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    libldacBT_dec
+    audio.sysbta.default \
+    android.hardware.bluetooth.audio-service-system
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -116,6 +117,13 @@ PRODUCT_COPY_FILES += \
 # APN's
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+ Wi-Fi
+PRODUCT_PACKAGES += \
+    wpa_supplicant \
+    hostapd \
+    libwifi-hal-wrapper \
+    android.hardware.wifi-service
+
 
 # [DNM] Temp permissions
 PRODUCT_COPY_FILES += \
