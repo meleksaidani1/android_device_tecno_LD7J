@@ -117,13 +117,6 @@ PRODUCT_COPY_FILES += \
 # APN's
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
- Wi-Fi
-PRODUCT_PACKAGES += \
-    wpa_supplicant \
-    hostapd \
-    libwifi-hal-wrapper \
-    android.hardware.wifi-service
-
 
 # [DNM] Temp permissions
 PRODUCT_COPY_FILES += \
